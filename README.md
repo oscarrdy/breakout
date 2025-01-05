@@ -23,11 +23,11 @@ The project is built with vanilla HTML, CSS, and JavaScript, and uses no depende
 
 ## Levels
 
-1. **Level 1**: Features the classic Atari Breakout layout.
-2. **Level 2**: Introduces armored bricks that require multiple hits to break.
-3. **Level 3**: Features even more armored bricks.
-4. **Level 4**: Introduces moving bricks that require better aim to hit.
-5. **Level 5**: Features even more moving bricks for increased difficulty.
+- **Level 1**: Features the classic Atari Breakout layout.
+- **Level 2**: Introduces armored bricks that require multiple hits to break.
+- **Level 3**: Features even more armored bricks.
+- **Level 4**: Introduces moving bricks that require better aim to hit.
+- **Level 5**: Features even more moving bricks for increased difficulty.
 
 ## Notes
 
