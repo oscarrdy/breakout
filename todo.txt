@@ -1,0 +1,30 @@
+FIXME: 
+In rare edge cases, a movable object may have moved enough during a single frame that the
+collision side is incorrectly determine, causing its trajectory to be incorrectly updated.
+May be fixed by tracking the previous position of all movable objects.
+Severity: low
+Likelihood: low
+
+TODO:
+Decouple the blast radius logic from the ball and brick collision logic to allow scaling with
+other powerups.
+Can make a separate private function within that file.
+
+TODO:
+Start using static dimension properties and centralize sizing logic to easily handle resizing.
+Make the game live responsive.
+
+TODO:
+Sound effects and background music.
+
+TODO:
+More powerups:
+- Multi-ball
+- Armour-piercing (does not bounce of the brick it collides with)
+- 2x score multiplier
+- Reversed controls
+- Reduced vision (temporarily hide the bricks and powerups except for a circle around the ball)
+- Curse ball (temporarily makes it repair bricks instead of damaging them)
+
+TODO:
+Add a final level with a boss fight

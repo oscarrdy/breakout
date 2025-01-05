@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-language" content="en-us">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Breakout</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="assets/breakout.png">
+  <!-- <script defer src="indexOld.js"></script> -->
+  <script type="module" src="./index.js"></script>
+</head>
+<body>
+
+  <div class="start-menu" id="elmStartMenu">
+    <div class="page-blocker"></div>
+    <div class="start-menu__container">
+      <h1 class="start-menu__title">Breakout</h1>
+      <div class="start-menu__high-score-container">
+        <p class="start-menu__high-score-title">High Scores:</p>
+        <div class="start-menu__high-score-table" id="elmHighScoreTable">
+          
+          <template id="templateHighScoreRow">
+            <div class="high-score-table__row">
+              <p class="high-score-table__row-position"></p>
+              <p class="high-score-table__row-name"></p>
+              <p class="high-score-table__row-score"></p>
+            </div>
+          </template>
+  
+        </div>
+      </div>
+      <button class="action-button" id="btnStart" type="button">Click here to start</button>
+    </div>
+  </div>
+
+
+  <div class="game-over-menu" id="elmGameOverMenu" data-hidden>
+    <div class="page-blocker"></div>
+    <div class="game-over-menu__container">
+      <h1 class="game-over-menu__title" id="elmGameOverTitle">Game Over</h1>
+      <div class="game-over-menu__stats-container">
+        <p class="game-over-menu__stats-title">Your score:</p>
+        <div class="game-over-menu___stats-table" id="elmStatsTable">
+  
+          <template id="templateStatsRow">
+            <div class="stats-table__row">
+              <p class="stats-table__row-name"></p>
+              <p class="stats-table__row-value"></p>
+            </div>
+          </template>
+  
+        </div>
+      </div>
+      <button class="action-button" id="btnContinue" type="button">Click here to continue</button>
+    </div>
+  </div>
+
+
+  <div class="game-paused-menu" id="elmGamePausedMenu" data-hidden>
+    <div class="page-blocker"></div>
+    <div class="game-paused-menu__container">
+      <h1 class="game-paused-menu__title">Game Paused</h1>
+      <button class="action-button" id="btnResume" type="button">Click here to resume</button>
+    </div>
+  </div>
+
+
+  <canvas id="canvas"></canvas>
+
+
+</body>
+</html>
