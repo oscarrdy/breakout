@@ -9,6 +9,8 @@ This project uses the **Model-View-Controller (MVC)** architecture for better sc
 - **Model**: All models and their logic are located in the `models` folder.
 - **Controller**: Central game logic such as the game loop, and start/stop methods, can be found in `game.js`.
 
+The project is built with vanilla HTML, CSS, and JavaScript, and uses no dependencies.
+
 ## Power-Ups
 
 - **`<>`**: Increases the paddle's width.
